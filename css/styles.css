@@ -1,0 +1,203 @@
+:root {
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--accent-color: #2196F3;
+	--primary-white-color: #ffffff;
+}
+
+body {
+	background-color: var(--primary-white-color);
+	color: var(--primary-text-color);
+	font-family: Roboto, Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.03rem;
+	}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: px;
+	outline: 2px solid tomato;
+}
+
+/* Лого */
+.logo-web {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.48;
+	color: var(--accent-color);
+	text-decoration: none;
+}
+.logo-studio {
+	color: var(--primary-text-color);
+}
+.logo-studio-footer {
+	color: var(--primary-white-color);
+}
+/* Шапка сайта */
+.header-navigation, .header-mail, .header-tel {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	color: var(--primary-text-color);
+}
+.header-navigation.current {
+	color: var(--accent-color);
+}
+.header-mail, .header-tel {
+	color: var(--secondary-text-color);
+}
+.current:hover, .header-navigation:hover, .header-mail:hover, .header-tel:hover, .current:focus, .header-navigation:focus, .header-mail:focus, .header-tel:focus {
+	color: var(--accent-color);
+}
+.site-nav.list, .auth-nav.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Герой */
+.hero {
+	background-color: #2F303A;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--primary-white-color);
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+/* Заказать услугу */
+.main-button {
+	font-family: inherit;
+	width: 200px;
+	height: 50px;
+	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	color: var(--primary-white-color);
+	cursor: pointer;
+	border: none;
+}
+
+/* Преимущества */
+.advantages-title {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.advantages-description {
+	line-height: 1.71;
+	color: var(--secondary-text-color);
+	padding-top: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.feature-list.list {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Чем мы занимаемся */
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 94px;
+}
+
+/* Наша команда */
+.team {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+}
+.team-title {
+	font-size: 16px;
+	line-height: 1.19;
+	color: var(--secondary-text-color);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Портфолио-кнопки */
+
+.portfolio-button, .portfolio-current {
+	font-family: inherit;
+	background: #F5F4FA;
+	border-radius: 4px;
+	border-style: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	cursor: pointer;
+	padding: 6px 22px;
+}
+.portfolio-button:hover, .portfolio-button:focus {
+	background: var(--accent-color);
+	color: var(--primary-white-color);
+}
+.portfolio-button.current {
+	background: var(--accent-color);
+	color: var(--primary-white-color);
+}
+.portfolio-pic-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.portfolio-pic-description {
+	font-size: 16px;
+	line-height: 1.88;
+	color: var(--secondary-text-color);
+}
+
+/* Футер */
+footer {
+	background-color: #2F303A;
+}
+.footer-address {
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.71;
+	color: var(--primary-white-color);
+	text-decoration: none;
+}
+.footer-mail-tel {
+	font-style: normal;
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+	}
+.footer-mail-tel:hover, .footer-mail-tel:focus {
+	color: var(--accent-color);
+}
