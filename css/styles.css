@@ -70,7 +70,7 @@ nav {
 	display: flex;
 	align-items: center;
 }
-.header-navigation, .header-mail, .header-tel {
+.header-nav, .header-mail, .header-tel {
 	display: block;
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -80,13 +80,13 @@ nav {
 	text-decoration: none;
 	color: var(--primary-text-color);
 }
-.header-navigation.current {
+.header-nav.current {
 	color: var(--accent-color);
 }
 .header-mail, .header-tel {
 	color: var(--secondary-text-color);
 }
-.current:hover, .header-navigation:hover, .header-mail:hover, .header-tel:hover, .current:focus, .header-navigation:focus, .header-mail:focus, .header-tel:focus {
+.current:hover, .header-nav:hover, .header-mail:hover, .header-tel:hover, .current:focus, .header-nav:focus, .header-mail:focus, .header-tel:focus {
 	color: var(--accent-color);
 }
 .site-nav {
